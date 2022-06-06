@@ -167,7 +167,7 @@ def trainPerceptron(weight, data, epochs, lr):
 
 
 def drawLine(weight, class_a_1, class_a_2, class_b_1, class_b_2):
-    # Equation: W1.X1+W2.X2+y = 0 ---> y = bias
+    # Equation: W1.X1+W2.X2+y = 0 ---> y = bias.
     # Here Calculate The other point coordinates
     point_1_y, point_2_x = 0, 10
     point_1_x = (-weight[2]*point_1_y - weight[0]) / weight[1]
